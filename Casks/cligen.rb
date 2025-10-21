@@ -3,7 +3,7 @@ cask "cligen" do
   name "cligen"
   desc "CLI for generating Go CLI apps with sane defaults and opinionated release pipelines."
   homepage "https://github.com/twinsnes/cligen"
-  version "0.0.13"
+  version "0.0.14"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cligen" do
   on_macos do
     on_intel do
       url "https://github.com/TWinsnes/cligen/releases/download/v#{version}/cligen_Darwin_x86_64.tar.gz"
-      sha256 "3f90cacfcba59205421f0eab80ed262ec9f89458a45d7e371075d0e84452a395"
+      sha256 "3138f5b1d4bf5522dfaea6bba24113abdbd61fd86ab8c0ec7f333a585cfa833a"
     end
     on_arm do
       url "https://github.com/TWinsnes/cligen/releases/download/v#{version}/cligen_Darwin_arm64.tar.gz"
-      sha256 "52231d6d27bc49275c68b8a2f4c5888dab6d04435d1734c400aab8dcb9c90944"
+      sha256 "63b78ea390c39583fb9cbd71ee92855c7de58c0930aa010f95d5690830a4bbb8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/TWinsnes/cligen/releases/download/v#{version}/cligen_Linux_x86_64.tar.gz"
-      sha256 "e08bb5efc511107cd55827a68684d05391a59b31cf4deefdae2575365869167a"
+      sha256 "d9a950d00a36114caed5cfbeed65de58d33c64d79ace56880e820e2a6af0cce6"
     end
     on_arm do
       url "https://github.com/TWinsnes/cligen/releases/download/v#{version}/cligen_Linux_arm64.tar.gz"
-      sha256 "5cdcbc2332676c5c87e99c07464fa5a4741893402781e0bd147be550adc45723"
+      sha256 "0b5a881a9b6dee33601048aab7249cd901dc96a747e9264b6a5ffe8223ef92ab"
     end
   end
 
